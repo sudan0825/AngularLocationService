@@ -1,0 +1,8 @@
+#container>div{
+    width:400px;
+    height: 800px;
+    background-color: antiquewhite;
+    margin: 30px;
+    text-align: center;
+    padding: 50px;
+}

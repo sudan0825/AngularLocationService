@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Location Service</title>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dan Su">
+        <link rel="stylesheet" href="location.css" >
+    </head>
+    <body ng-app="location" ng-controller="mainCtrl">
+        
+        
+        <div id="container" ng-repeat="x in thearray">
+            <div>{{x}}</div>
+        </div>
+
+
+      
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+   
+    <script src="app.js"></script>
+    <script src="gobackservice.js"></script>
+</html>
