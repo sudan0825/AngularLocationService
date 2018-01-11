@@ -10,17 +10,20 @@
         <link rel="stylesheet" href="location.css" >
     </head>
     <body ng-app="location" ng-controller="mainCtrl">
-        
-        
-        <div id="container" ng-repeat="x in thearray">
-            <div>{{x}}</div>
-        </div>
+        <a href="#/">home</a> <a href="#test">test</a>
+        <div countClicks id="container" >
+      <innercontent data="thearray"></innercontent>
+            
+           <div ng-view></div>
+            
+            </div>
 
 
       
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
-    <script src="gobackservice.js"></script>
+    <script src="locationservice.js"></script>
 </html>
